@@ -48,11 +48,13 @@ The tool can be accessed from the WebApp repository, by installing the requireme
 ### Methodology
 
 Our aim is to develop a model able to provide a live sentiment analysis with a visual user interface.Therefore, we have decided to separate two types of inputs :
+
 - Video input from a live webcam or stored from an MP4 or WAV file, from which we split the audio and the images
 
 ---
 
 ### Video Analysis - [Read More . . .](https://github.com/aryasoni98/AI-Interview/wiki/Video-Analysis)
+
 <br>
 <p>
     <img src="./Images/Video.png" width="600" height="300"/>
@@ -61,6 +63,7 @@ Our aim is to develop a model able to provide a live sentiment analysis with a v
 ---
 
 ### Audio Analysis - [Read More . . . ](https://github.com/aryasoni98/AI-Interview/wiki/Audio-Analysis)
+
 <br>
 <p>
     <img src="./Images/Audio.png" width="600" height="300"/>
@@ -75,11 +78,12 @@ Our aim is to develop a model able to provide a live sentiment analysis with a v
 ## How to use it ?
 
 To use the **WebApp** ( Server Side ):
+
 - Clone the project locally
 - Go in the WebApp folder
 - Run `pip install -r requirements.txt`
 - Launch `python app.py`
-- Alternatively, skip all the steps by using  [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/aryasoni98/AI-Interview/tree/master/WebApp)
+- Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/aryasoni98/AI-Interview/tree/master/WebApp)
 
 Install **PyAudio** [ Window , Mac ](https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14)
 
@@ -91,20 +95,28 @@ Install **PyAudio** [ Window , Mac ](https://stackoverflow.com/questions/5228384
 - - `brew install portaudio`
 
 To use the **Application** ( Client Side ):
+
 - Go in the Application folder.
 - Run `npm install -g && npm start`
 - Launch
-- Alternatively, skip all the steps by using  [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/aryasoni98/AI-Interview/tree/master/Application)
+- Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/aryasoni98/AI-Interview/tree/master/Application)
 
 The web app has been **Dockerized** ( **Application && WebApp Folder** )
+
 - First install [Docker](https://www.docker.com/products/docker-desktop)
 - Second build the image, Run `docker-compose build`
 - Then start/run the container, run `docker-compose up`
+
 ---
+
 ## Improve Model Accuracy : [AI-Interview-ML](https://github.com/aryasoni98/AI-Interview-ML)
+
 ---
+
 ## Figma UI Design : [AI-Interview](https://www.figma.com/file/l6u5emxKaNnX4EYDYhPley/AI-Interview?node-id=0%3A1)
+
 ---
+
 ## How to Contribute to AI Interview System?
 
 - Take a look at the Existing [Issues](https://github.com/aryasoni98/AI-Interview/issues) or create your own Issues!
@@ -127,53 +139,3 @@ The web app has been **Dockerized** ( **Application && WebApp Folder** )
  		</td>
  	</tr>
  </table>
-
----
-
-<div>
-
-### Project Member ❤️
-
-<table>
- 	<tr>
- 		<td align="center">
- 			<a href="https://github.com/aryasoni98">
- 				<img src="https://avatars.githubusercontent.com/u/18515597?s=400&u=4ecfe979f461f79e86a9c7a26183c1327da5d2bc&v=4" width="100px" alt="" />
- 				<br /> <sub><b>Arya Soni</b></sub>
- 			</a>
- 				<br /> <a href="https://github.com/aryasoni98">
- 		   			Admin
- 	   		 </a>
- 		</td>
-		<td align="center">
- 			<a href="https://github.com/shubhigupta991">
- 				<img src="https://avatars.githubusercontent.com/u/58917829?s=400&u=a792b01ef12ba7f84049ee3382f256738dc0a0de&v=4" width="100px" alt="" />
- 				<br /> <sub><b>Shubhangi Gupta</b></sub>
- 			</a>
-				<br /><a href="https://github.com/shubhigupta991">
-					Member
- 	    	</a>
- 		</td>
-        </td>
- 	</tr>
-</table>
-
----
-
-### Contributors 🌟
-
-#### Thanks goes to these wonderful people ✨✨:
-
-<table>
-	<tr>
-		<td>
-			<a href="https://github.com/aryasoni98/AI-Interview/graphs/contributors">
-			<img src="https://contrib.rocks/image?repo=aryasoni98/AI-Interview" />
-			</a>
-		</td>
-	</tr>
-</table>
-
-</div>
-
----
